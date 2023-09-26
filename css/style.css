@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
     --ff-Fredoka: 'Fredoka', sans-serif;
@@ -51,7 +51,7 @@ body {
     font-size: 12px;
     line-height: 1;
     font-weight: 400;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .container {
@@ -109,4 +109,108 @@ body {
     color: #FAFAFA;
     font-size: 16px;
     font-weight: 700;
+}
+
+.hero {
+    background: rgba(242, 206, 218, 0.3);
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 665px;
+    width: 100%;
+}
+
+.hero-img {
+    max-width: 597px;
+    width: 100%;
+}
+
+.hero-subtitle {
+    color: #0F0101;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.hero-title {
+    color: #0F0101;
+    font-family: var(--ff-Fredoka);
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.hero-title span{
+    color: #D23166;
+}
+
+.hero-text {
+    color: #0F0101;
+    font-family: var(--ff-Hind);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 0.6;
+    max-width: 523px;
+    width: 100%;
+    margin: 35px 0 50px 0;
+}
+
+.hero-link {
+    width: 165px;
+    padding-top: 13px;
+    color: #FAFAFA;
+    font-family: var(--ff-Hind);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* end hero */
+
+.delivery{
+    background: var(--color-primary);
+    padding-bottom: 100px;
+}
+
+.delivery-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+}
+
+.delivery-block {
+    width: 250px;
+    padding: 33px 26px 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-title {
+    color: var(--color-secondary);
+    font-family: var(--ff-Hind);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin: 22px 0 9px;
+
+}
+
+.delivery-text {
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: var(--ff-Hind);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
 }
