@@ -280,3 +280,14 @@ body {
     padding: 15px 0;
     text-align: center;
 }
+
+/* end detalis */
+
+.product {
+    padding: 135px 0 150px;
+}
+
+.product-title {
+    text-align: center;
+    margin-bottom: 64px;
+}
