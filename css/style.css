@@ -388,3 +388,58 @@ body {
     padding: 15px 0;
 }
 
+/* end product */
+
+.app {
+    background: #F8EDF0;
+    padding: 7px 0;
+}
+
+.app-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-title {
+    margin-bottom: 20px;
+}
+
+.app-text {
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    opacity: 0.7;
+    max-width: 607px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.app-item {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 29px;
+}
+
+.click{
+    background-image: url(../img/click.svg);
+}
+
+.cart{
+    background-image: url(../img/cart.svg);
+}
+
+.right{
+    background-image: url(../img/right.svg);
+}
+
