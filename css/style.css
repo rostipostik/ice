@@ -443,3 +443,44 @@ body {
     background-image: url(../img/right.svg);
 }
 
+.app-google {
+    width: 171px;
+    height: 43px;
+    display: block;
+    background: url(../img/google-play.png) no-repeat center;
+}
+
+.app-store {
+    width: 162px;
+    height: 43px;
+    display: block;
+    background: url(../img/app-store.png) no-repeat center;
+}
+
+.app-block {
+    display: flex;
+    gap: 28px;
+}
+
+.app-list {
+    margin-bottom: 54px;
+}
+
+/* end app */
+
+.queston {
+    padding: 190px 0 150px;
+}
+
+.queston-title {
+    max-width: 522px;
+    margin: 0 auto 28px;
+    text-align: center;
+}
+
+.queston-form {
+    max-width: 637px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
