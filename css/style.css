@@ -431,15 +431,15 @@ body {
     line-height: 29px;
 }
 
-.click{
+.click {
     background-image: url(../img/click.svg);
 }
 
-.cart{
+.cart {
     background-image: url(../img/cart.svg);
 }
 
-.right{
+.right {
     background-image: url(../img/right.svg);
 }
 
@@ -466,6 +466,14 @@ body {
     margin-bottom: 54px;
 }
 
+.app-img {
+    width: 305px;
+}
+
+.app-img img {
+    border-radius: 33px;
+}
+
 /* end app */
 
 .queston {
@@ -483,4 +491,31 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+.queston-form input {
+    width: 100%;
+    padding: 29px 30px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    color: #0F0000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: inherit;
+}
+
+.queston-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    background: #D64374;
+    width: 134px;
+    padding: 25px 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    height: 74px;
 }
