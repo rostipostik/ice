@@ -519,3 +519,16 @@ body {
     line-height: normal;
     height: 74px;
 }
+
+/* end queston */
+
+.footer{
+    background: #0A0808;
+    padding: 70px 0 104px;
+    color: var(--color-primary);
+}
+
+.footer-botom {
+    display: flex;
+    justify-content: space-between;
+}
