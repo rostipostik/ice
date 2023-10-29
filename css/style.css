@@ -522,7 +522,7 @@ body {
 
 /* end queston */
 
-.footer{
+.footer {
     background: #0A0808;
     padding: 70px 0 104px;
     color: var(--color-primary);
@@ -531,4 +531,91 @@ body {
 .footer-botom {
     display: flex;
     justify-content: space-between;
+}
+
+.footer-text {
+    width: 207px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.39;
+    letter-spacing: 0.12px;
+    margin: 9px 0 25px;
+    opacity: 0.7;
+}
+
+.socal-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-title {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-item {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-form {
+    max-width: 388px;
+    width: 100%;
+}
+
+.footer-form legend {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.footer-block {
+    position: relative;
+    max-width: 388px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    opacity: 0.5;
+    padding: 20px 32px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+
+.footer-btn {
+    border-radius: 5px;
+    background: #D23166;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 125px;
+    height: 55px;
+    padding: 16px 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
