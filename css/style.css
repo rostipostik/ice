@@ -48,12 +48,22 @@ input {
     background: transparent;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 body {
     font-family: var(--ff-Roboto);
     font-size: 12px;
     line-height: 1;
     font-weight: 400;
     color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .container {
@@ -549,6 +559,15 @@ body {
     gap: 10px;
 }
 
+.socal-title {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+    display: block;
+}
+
 .footer-title {
     display: block;
     margin-bottom: 10px;
@@ -601,6 +620,7 @@ body {
     font-weight: 400;
     line-height: normal;
     display: block;
+    height: 55px;
 }
 
 .footer-btn {
@@ -608,7 +628,7 @@ body {
     background: #D23166;
     position: absolute;
     right: 0;
-    top: 2px;
+    top: 0;
     width: 125px;
     height: 55px;
     padding: 16px 0;
@@ -618,4 +638,14 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.footer-colom-form{
+    width: 340px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 15px;
+    margin-top: 16px;
 }
