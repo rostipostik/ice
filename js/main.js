@@ -13,4 +13,9 @@ $(document).ready(function () {
             $('.ice').filter('.' + value).show(1000)
         }
     })
+
+    $('.burger').click(function() {
+        $('.burger').toggleClass('active')
+        $('.nav').toggleClass('active')
+      } )
 });

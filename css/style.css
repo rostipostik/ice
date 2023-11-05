@@ -72,6 +72,10 @@ main {
     margin: 0 auto;
 }
 
+.burger{
+    display: none;
+}
+
 .header {
     background: #F2CEDA30;
 }
@@ -541,6 +545,8 @@ main {
 .footer-botom {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .footer-text {
