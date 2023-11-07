@@ -60,6 +60,7 @@ body {
     color: var(--color-secondary);
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main {
@@ -135,6 +136,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-content {
@@ -143,7 +145,7 @@ main {
 }
 
 .hero-img {
-    max-width: 597px;
+    max-width: 514px;
     width: 100%;
 }
 
