@@ -16,6 +16,30 @@
     .nav {
         gap: 100px;
     }
+
+    .product-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .app-wrapper {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .app-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-text {
+        text-align: center;
+    }
+
+    .app-title {
+        text-align: center;
+    }
 }
 
 @media(max-width:850px) {
@@ -65,7 +89,19 @@
 
 @media(max-width) {}
 
-@media(max-width) {}
+@media(max-width:590px) {
+    .queston-form {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .queston-btn {
+        position: static;
+        width: 100%;
+    }
+
+    
+}
 
 @media(max-width) {}
 
@@ -89,5 +125,10 @@
 
     .footer-colom {
         width: 100%;
+    }
+
+    .app-block {
+        flex-direction: column;
+        align-items: center;
     }
 }
