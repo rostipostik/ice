@@ -202,6 +202,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 39px;
+    flex-wrap: wrap;
 }
 
 .delivery-block {
