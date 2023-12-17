@@ -63,6 +63,10 @@ body {
     overflow-x: hidden;
 }
 
+.hiden{
+    overflow-y: hidden;
+}
+
 main {
     flex: 1;
 }
@@ -78,7 +82,16 @@ main {
 }
 
 .header {
-    background: #F2CEDA30;
+height: 80px;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: #f98aab;
 }
 
 .header-wrapper {
